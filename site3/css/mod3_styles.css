@@ -1,0 +1,65 @@
+body{
+    font-size: 16px;
+    background-color: azure;
+    
+
+   
+}
+#header-nav{
+    background-color: rgb(218, 216, 216);
+    border-radius: 0;
+    border: 6px solid rgb(220, 223, 195);
+    text-shadow: 1px 1px 2px black, 0 0 0em rgb(0, 0, 0);
+    color: #fff;
+
+}
+body > .container{
+    background-color: rgb(204, 204, 247);
+    width: 100%;
+   
+    margin-top: 30px;
+    font-size: 18px;
+}
+.text-center{
+    color: black;
+}
+.div_menu{
+    color: black;
+    text-shadow: none;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.navbar-toggle
+{
+    position: absolute;
+    top: 1vw;
+    right: 5vw;
+}
+h1{
+    margin-left: 20px;
+}
+p{
+    text-align: center;
+    color: black;
+    text-shadow: none;
+
+}
+@media (min-width:768px)
+{
+    p{
+        color: rgb(218, 216, 216);
+    }
+}
+@media (max-width:768px)
+{
+    p{
+        color:rgb(0, 0, 0);
+
+    }
+    .navbar-toggle{
+        background-color: rgb(226, 211, 191);
+    }
+}
+  
+  
