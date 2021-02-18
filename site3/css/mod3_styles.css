@@ -15,10 +15,11 @@ body{
 }
 body > .container{
     background-color: rgb(204, 204, 247);
-    width: 100%;
-   
+    width: 90%;
     margin-top: 30px;
+    margin-left: 5vw;
     font-size: 18px;
+    
 }
 .text-center{
     color: black;
@@ -61,5 +62,6 @@ p{
         background-color: rgb(226, 211, 191);
     }
 }
+
   
   
